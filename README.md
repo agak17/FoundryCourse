@@ -7,7 +7,7 @@ The Wellness App is a web application designed to promote mindfulness, meditatio
 ## Features
 
 - **Meditation Content:** Begin your meditation journey with soothing sounds and visual cues.
-- **Reflect Content:** Explore reflective questions carefully curated to across various categories to foster self-discovery.
+- **Reflect Content:** Explore reflective questions across various categories to foster self-discovery.
 - **Journal Content:** Write and save journal entries to track your thoughts and reflections.
 
 ## How to Use
