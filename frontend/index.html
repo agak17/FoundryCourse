@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Wellness App</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="#" onclick="showContent('meditation-content')">Meditate</a></li>
+            <li><a href="#" onclick="showContent('reflect-content')">Reflect</a></li>
+            <li><a href="#" onclick="showContent('journal-content')">Journal</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="meditation-content">
+        <h1>Welcome</h1>
+        <h2>Begin your meditation</h2>
+        <br> 
+        <div id="breathing-circle" class="breathing-container">
+            <div class="circle"></div>
+            <p id="breathing-text"></p>
+            <div class="pointer-container">
+                <span class="pointer"></span>
+            </div>
+            <div class="gradient-circle"></div>
+        </div>
+        <br>
+        <div class="meditation-buttons">
+            <button id="playButton" onclick="playMeditationSound()">Play Meditation Sound</button>
+            <button id="pauseButton" onclick="pauseMeditationSound()">Pause Meditation Sound</button>
+        </div>
+    </div>
+    <div class="content" id="reflect-content">
+        <h1>Reflect</h1>
+        <h3>Welcome to our mindfulness website, where the transformative power of reflective questions awaits you. As you find a comfortable seated position and allow your body to relax, take a few deep breaths to anchor yourself in the present moment. 
+          Click on the buttons below to discover a curated selection of reflective questions across various categories. These questions serve as powerful tools to guide your introspection and foster a deeper connection with your thoughts and emotions. Embrace the benefits of this practice, including heightened self-awareness, stress reduction, and an enhanced ability to navigate life's challenges with mindfulness. Through the simple act of asking reflective questions, you embark on a journey of self-discovery and personal growth. Explore the richness of your inner world and cultivate a sense of peace and balance in your life.</h3>
+        <div class="category-buttons" id="categories"></div>
+        <div class="question-card" id="questions"></div>
+    </div>
+
+    <div class="content" id="journal-content">
+        <h1>Journal</h1>
+        <div class="jounral-container">
+          <textarea id="entry-title" placeholder="Enter Title"></textarea>
+          <textarea id="journal-entry" placeholder="Write your journal entry"></textarea>
+          <button id="save-btn">Save Entry</button>
+          <div id="entries-container" class="entries-container"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

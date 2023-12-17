@@ -1,0 +1,196 @@
+{
+    "questions": [
+      {
+        "category": "emotional well-being",
+        "question": "What was the best thing that happened to you today?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What is something that made you laugh today?"
+      },
+      {
+        "category": "career",
+        "question": "What steps did you take today toward a goal you’re working on?"
+      },
+      {
+        "category": "relationships",
+        "question": "Who made your day better today? How can you pay that feeling forward?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What made today unique?"
+      },
+      {
+        "category": "personal growth",
+        "question": "What is one thing you want to remember from today?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "When did you feel most authentically yourself today?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "How can you make tomorrow (even) better than today?"
+      },
+      {
+        "category": "mindfulness",
+        "question": "What activities bring you a sense of calm and peace?"
+      },
+      {
+        "category": "personal growth",
+        "question": "Did you practice self-care today? If so, what did you do?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What are you grateful for right now?"
+      },
+      {
+        "category": "personal growth",
+        "question": "How did you challenge yourself today?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What positive affirmations resonate with you today?"
+      },
+      {
+        "category": "community",
+        "question": "What is a small act of kindness you witnessed or performed?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "How do you handle stress, and what strategies did you use today?"
+      },
+      {
+        "category": "career",
+        "question": "What is a goal you have for the upcoming week?"
+      },
+      {
+        "category": "physical health",
+        "question": "Did you spend time in nature today? How did it make you feel?"
+      },
+      {
+        "category": "personal growth",
+        "question": "What is a skill or talent you are proud of?"
+      },
+      {
+        "category": "career",
+        "question": "How do you prioritize and manage your time effectively?"
+      },
+      {
+        "category": "mindfulness",
+        "question": "What is a book, movie, or song that inspired you recently?"
+      },
+      {
+        "category": "relationships",
+        "question": "Did you express your feelings and needs to someone today?"
+      },
+      {
+        "category": "work-life balance",
+        "question": "How do you maintain a healthy work-life balance?"
+      },
+      {
+        "category": "physical health",
+        "question": "What is a healthy habit you would like to develop?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What brings you a sense of fulfillment in your life?"
+      },
+      {
+        "category": "personal growth",
+        "question": "Did you learn something new today? What was it?"
+      },
+      {
+        "category": "relationships",
+        "question": "How do you nurture and cultivate your relationships?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What are your favorite ways to relax and unwind?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "Did you set any boundaries today? How did it feel?"
+      },
+      {
+        "category": "overcoming challenges",
+        "question": "How do you handle setbacks and failures?"
+      },
+      {
+        "category": "personal growth",
+        "question": "What positive changes have you noticed in yourself recently?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "What is a hobby or activity that brings you joy?"
+      },
+      {
+        "category": "mindfulness",
+        "question": "Did you practice mindfulness or meditation today?"
+      },
+      {
+        "category": "relationships",
+        "question": "Who is a positive influence in your life?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "How do you show kindness to yourself and others?"
+      },
+      {
+        "category": "career",
+        "question": "What is a goal or dream that you're working towards?"
+      },
+      {
+        "category": "relationships",
+        "question": "What is a memorable compliment you received recently?"
+      },
+      {
+        "category": "personal growth",
+        "question": "How do you celebrate your achievements, big or small?"
+      },
+      {
+        "category": "mindfulness",
+        "question": "What is a mantra or phrase that motivates you?"
+      },
+      {
+        "category": "tranquil spaces",
+        "question": "What is a place that brings you peace and tranquility?"
+      },
+      {
+        "category": "overcoming challenges",
+        "question": "What is a challenge you overcame today?"
+      },
+      {
+        "category": "emotional well-being",
+        "question": "How do you handle negative thoughts and self-talk?"
+      },
+      {
+        "category": "personal growth",
+        "question": "What is a habit you want to break or replace?"
+      },
+      {
+        "category": "community",
+        "question": "How do you foster a sense of community in your life?"
+      },
+      {
+        "category": "mindfulness",
+        "question": "What is a source of inspiration or motivation for you?"
+      },
+      {
+        "category": "sleep",
+        "question": "How do you ensure you get enough restful sleep?"
+      },
+      {
+        "category": "physical health",
+        "question": "What are your favorite ways to stay physically active?"
+      },
+      {
+        "category": "personal growth",
+        "question": "What is a goal you have for your personal development?"
+      },
+      {
+        "category": "creativity",
+        "question": "How do you express creativity in your daily life?"
+      }
+    ]
+  }

@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@600;700&display=swap');
+
+body {
+    margin: 0;
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: url("./backgroundimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+/*background: radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);*/
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+.content h3{
+    font-size: small;
+    font-weight: 100;
+}
+
+#reflect-content {
+    display: none;
+}
+
+#reflect-content h3 {
+    border: 2px solid white; 
+    padding: 10px; 
+    background-color: hsla(240, 100%, 99%, 0.977); 
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px; 
+    width: 90%; 
+    color: rgb(26, 62, 111);
+}
+
+#journal-content {
+    display: none;
+}
+
+nav {
+    padding: 10px;
+    transition: 0.3s;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgba(54, 91, 104, 0.199) 18.9%, rgb(40, 70, 90) 91.1%);}
+nav a {
+    text-decoration: none;
+    color: rgb(219, 222, 230);
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(39, 45, 88, 0.865);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+.journal-container {
+    background: rgba(255, 255, 255, 0.904);
+    border-radius: 50px;
+    margin-top: 32px;
+    padding: 32px 20px 0;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(255, 255, 255, 0.913);
+}
+
+button {
+    line-height: 150%;
+    min-height: unset;
+    min-width: unset;
+    font-weight: 700;
+    padding: 9px 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    background: #f5f5fa;
+    border: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #2a1f62;
+    cursor: pointer;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: 0.2s;
+    margin: 10px; 
+}
+
+.entries-container {
+    margin-top: 50px;
+}
+
+.entry {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #2a1f62;
+}
+
+.entry p {
+    margin: 0;
+}
+
+.entry button {
+    line-height: 150%;
+    min-height: unset;
+    min-width: unset;
+    font-weight: 700;
+    padding: 9px 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    background: #f5f5fa;
+    border: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #2a1f62;
+    cursor: pointer;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    transition: 0.2s;
+    margin: 10px; 
+}
+
+.entry .entry-text {
+    overflow: hidden;
+    color: #2a1f62;
+    max-height: 100px;
+    transition: max-height 0.3s ease;
+}
+
+.entry .entry-text.hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+
+.container{
+    background: rgba(255, 255, 255, 0.904);
+    border-radius: 20px;
+    margin-top: 32px;
+    padding: 32px 20px 0px;
+    position: relative;
+}
+
+
+.category-buttons button {
+    line-height: 150%;
+    min-height: unset;
+    min-width: unset;
+    font-weight: 700;
+    padding: 9px 16px;
+    border-radius: 10px;
+    border-width: 1px;
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    color: #2a1f62;
+    cursor: pointer;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 15px;
+    transition: .2s;
+    margin: 10px; 
+    transition: background-color 0.2s, color 0.2s; 
+
+}
+
+.category-buttons button:hover {
+    background-color: #1d0dca; 
+    color: #fff; 
+}
+
+.question-card {
+    position: relative;
+    background-color: #f8f8ff; 
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px; 
+    width: 90%; 
+    color: rgb(26, 62, 111);
+    display: inline-block;
+}
+
+.question-card p {
+    color: #2a1f62;
+    cursor: pointer;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1.5rem;
+}
+
+
+/*Breathing*/
+.breathing-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    transform: scale(1);
+}
+
+.circle {
+    background-color: #010f1c;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.gradient-circle {
+    background: conic-gradient(
+      #454b9fee 0%,
+      #5aa2cf 40%,
+      #fff 40%,
+      #fff 60%,
+      #8a96efc2 60%,
+      #8d14e49c 100%
+    );
+    height: 320px;
+    width: 320px;
+    z-index: -2;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.pointer {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.pointer-container {
+    position: absolute;
+    top: -40px;
+    left: 140px;
+    width: 20px;
+    height: 190px;
+    animation: rotate 7.5s linear forwards infinite;
+    transform-origin: bottom center;
+    z-index: 1; 
+}
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.breathing-container.grow {
+    animation: grow 3s linear forwards;
+}
+
+@keyframes grow {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.2);
+    }
+}
+
+.breathing-container.shrink {
+    animation: shrink 3s linear forwards;
+}
+
+@keyframes shrink {
+    from {
+      transform: scale(1.2);
+    }
+
+    to {
+      transform: scale(1);
+    }
+}
